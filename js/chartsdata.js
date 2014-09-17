@@ -6,7 +6,7 @@ $(function () {
                     x: -20 //center
                 },
                 subtitle: {
-                    text: 'Source: lawrenceks.org',
+                    text: 'Source: <a href="http://www.lawrenceks.org">lawrenceks.org</a>',
                     x: -20
                 },
                 xAxis: {
