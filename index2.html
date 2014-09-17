@@ -13,6 +13,7 @@
             h1 { margin-bottom: 0; }
             h2 { margin-top: .25em; }
             p, ul, ol { font-family: 'Varela', serif; }
+            div.warning { display: block; background-color: red; color: white; padding: 10px; }
         </style>
 		<script type="text/javascript">
         $(function () {
@@ -66,10 +67,18 @@
 		</script>
 	</head>
 	<body>
-<script src="js/highcharts.js"></script>
-<script src="js/modules/exporting.js"></script>
+    <script src="js/highcharts.js"></script>
+    <script src="js/modules/exporting.js"></script>
+    <div class="warning">
+      <p>Please be patient. This is a work in progress and isn't finished yet.</p>
+    </div>
 
-<div id="container" style="min-width: 310px; height: 400px; margin: 0 auto"></div>
+    <h1>A graphical look at City of Lawrence water rates</h1>
+    <p>The <a href="http://www.lawrenceks.org" title="City of Lawrence website" target="_blank">City of Lawrence</a> prices rates for its utility billing services near the end of each year.</p>
+
+    <div id="container" style="min-width: 310px; height: 400px; margin: 0 auto">
+
+    </div>
 
 	</body>
 </html>
